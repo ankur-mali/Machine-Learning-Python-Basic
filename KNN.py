@@ -6,7 +6,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Load the data
-data = pd.read_csv('D:\\SRH\\SEM 2\\AI\\ElectrGridStab.csv')
+
+data = pd.read_csv('D:\\SRH\\SEM 2\\AI\\ElectrGridStab.csv') #please give your own path
 print(data.info())
 print(data.describe())
 
